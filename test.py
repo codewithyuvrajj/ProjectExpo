@@ -6,7 +6,6 @@ st.set_page_config(page_title="Calories Advisor App")
 st.header("Doctor Nutritionist")
 
 # Configure API key
-genai.configure(api_key='AIzaSyAJjg6KyjteNj-H6Um-1aLXXNPk0pwJbF4')
 
 
 def get_gemini_response(input_prompt):
